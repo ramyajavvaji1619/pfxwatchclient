@@ -132,7 +132,7 @@ background-repeat: no-repeat;
 background-size: cover;
 overflow-x: hidden;
 padding-top: 20px;
-margin-top: 3%;
+margin-top: 69px;
 }
 
 .sidebar a {
@@ -153,8 +153,8 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .image-logo{
-height: 30vh;
-width: 40vh;
+height: 20vh;
+width: 50vh;
 margin-left: 35%;
 }
 

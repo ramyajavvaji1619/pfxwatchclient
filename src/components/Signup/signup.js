@@ -10,9 +10,6 @@ import logo from '../Signup/PFX Watch Black.png'
 function Signup() {
 
  
-
-
-
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");

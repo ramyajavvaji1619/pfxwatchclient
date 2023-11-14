@@ -38,11 +38,11 @@ const Home = ()=>{
 
       if (response.ok) { 
         const data = await response.json();
-        // Set video data using setVideo
+        
         setVideo(data);
         console.log('Video data:', data);
       } else {
-        // Handle non-OK responses
+        
         const errorData = await response.json();
         console.error('Error fetching video:', errorData);
         setVideo("Error");
@@ -70,11 +70,11 @@ const Home = ()=>{
 
       if (response.ok) { 
         const data = await response.json();
-        // Set video data using setVideo
+        
         setVideo(data);
         console.log('Video data:', data);
       } else {
-        // Handle non-OK responses
+        
         const errorData = await response.json();
         console.error('Error fetching video:', errorData);
         setVideo("Error");
