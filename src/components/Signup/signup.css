@@ -1,0 +1,43 @@
+.signup{
+    background-color: purple;
+    color:white;
+    margin-left: 500px;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    height: 5vh;
+    border-color: purple;
+  }
+  .form-control{
+    border-radius: 10px;
+    width: 500px;
+    height: 6vh;
+    color: rgb(51, 49, 49);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(221, 212, 212);
+  }
+  .label1{
+    color: black;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+   
+  }
+  .image-logo1{
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+  }
+  
+  .text-start{
+    background-color: #fafcfe;
+  border-radius: 20px;
+border: none;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 8px 24px hsla(0, 0%,0%,.25);
+  }

@@ -1,0 +1,22 @@
+.trend{
+    background-image: url("https://wallpapers.com/images/hd/trending-purple-apple-macbook-logo-broken-glass-abirsqrb9sb6ohlw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.header1 {
+    color: rgb(214, 12, 147);
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 5%;
+    margin-left: -60%;
+    transition: transform 0.7s ease;
+}
+
+.header1:hover {
+    transform: scale(1.7);
+}
+
