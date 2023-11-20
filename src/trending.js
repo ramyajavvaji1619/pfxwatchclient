@@ -12,7 +12,7 @@ useEffect(() => {
     
 const fetchVideos = async () => {
     try {
-      const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTMwNGU2MTY1MDhhYzRiYmU5ZDVlZCIsImlhdCI6MTY5OTkzOTYwNSwiZXhwIjoxNzAwMDI2MDA1fQ.56nkb_TO0oH5bY__dOu_ef9lTW8xfaLARTaMGCbHzfY';  // Replace with your actual token
+      const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGY1NzA3NDE3MzI2NmY2ZWVlOTU4NCIsImlhdCI6MTcwMDQ2MzI4MiwiZXhwIjoxNzAwNTQ5NjgyfQ.D2bCy_w4JSPT65624wUxzNTBnRUFfroIviML8JzEfUo';  // Replace with your actual token
       const url = "http://localhost:4445/api/videos?title=title&search=trending";
       const options = {
         headers: {

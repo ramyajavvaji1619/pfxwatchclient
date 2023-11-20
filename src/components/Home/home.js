@@ -25,7 +25,7 @@ const Home = ()=>{
 
   const fetchVideo = async () => {
     try {
-      const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTMwNGU2MTY1MDhhYzRiYmU5ZDVlZCIsImlhdCI6MTY5OTkzOTYwNSwiZXhwIjoxNzAwMDI2MDA1fQ.56nkb_TO0oH5bY__dOu_ef9lTW8xfaLARTaMGCbHzfY';  // Replace with your actual token
+      const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGY1NzA3NDE3MzI2NmY2ZWVlOTU4NCIsImlhdCI6MTcwMDQ2MzI4MiwiZXhwIjoxNzAwNTQ5NjgyfQ.D2bCy_w4JSPT65624wUxzNTBnRUFfroIviML8JzEfUo';  // Replace with your actual token
       const url = "http://localhost:4445/api/videos/654f90f209ebd86318d0ea96";
       const options = {
         headers: {
@@ -57,7 +57,7 @@ const Home = ()=>{
 
   const fetchVideos = async () => {
     try {
-      const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTMwNGU2MTY1MDhhYzRiYmU5ZDVlZCIsImlhdCI6MTY5OTkzOTYwNSwiZXhwIjoxNzAwMDI2MDA1fQ.56nkb_TO0oH5bY__dOu_ef9lTW8xfaLARTaMGCbHzfY';  // Replace with your actual token
+      const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NGY1NzA3NDE3MzI2NmY2ZWVlOTU4NCIsImlhdCI6MTcwMDQ2MzI4MiwiZXhwIjoxNzAwNTQ5NjgyfQ.D2bCy_w4JSPT65624wUxzNTBnRUFfroIviML8JzEfUo';  // Replace with your actual token
       const url = "http://localhost:4445/api/videos";
       const options = {
         headers: {
@@ -86,9 +86,9 @@ const Home = ()=>{
     }
   };
 
-    const goToVideos = ()=>{
-        navigate('/videos')
-     }
+    // const goToVideos = ()=>{
+    //     navigate('/videos')
+    //  }
 
      
     return(
@@ -99,8 +99,6 @@ const Home = ()=>{
             <img src={logo} className=" image-logo " />
                 <h1 className="main-heading">Find the videos you want</h1>
                 <p className="video-desc">Buy PFX WATCH Premium.</p>
-                <button className="find-videos" onClick={goToVideos}>Get It Now</button>
-            
             </div>
             <div className="sidebar">
             <a href="#home">Home</a>

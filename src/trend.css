@@ -9,6 +9,7 @@
 
 .header1 {
     color: rgb(214, 12, 147);
+    text-shadow: 0 0 3px #00ccff, 0 0 5px #1eff00;
     font-weight: 500;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 5%;

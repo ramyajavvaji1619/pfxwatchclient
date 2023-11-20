@@ -4,9 +4,10 @@
     margin-left: 500px;
     margin-top: 4vh;
     margin-bottom: 2vh;
-    border-radius: 10px;
+    border-radius: 15px 50px;
     height: 5vh;
-    border-color: purple;
+   border: none;
+   box-shadow: 0px 5px 8px 0px rgba(32, 40, 61, 0.7);
   }
   .form-control{
     border-radius: 10px;
@@ -15,7 +16,8 @@
     color: rgb(51, 49, 49);
     font-size: 16px;
     font-weight: 500;
-    background-color: rgb(221, 212, 212);
+    background-color: rgb(241, 240, 240);
+    box-shadow: 0px 5px 8px 0px rgba(32, 40, 61, 0.7);
   }
   .label1{
     color: black;
